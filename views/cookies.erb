@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+
+<section>
+  <div class="container-fluid">
+    <h1 class="bname">Cookies</h1>
+  </div>
+</section>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/oatmeal.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4> <%= @oatmeal.name %></h4> - <h6><%= @oatmeal.price %></h6>
+              <p class="card-text"><%= @oatmeal.description %></p>
+              <i class="fas fa-cart-plus"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/choco.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4> <%= @chocolate.name %></h4> - <h6><%= @chocolate.price %></h6>
+              <p class="card-text"><%= @chocolate.description %></p>
+              <i class="fas fa-cart-plus"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/lemon.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h4> <%= @lemon.name %></h4> - <h6><%= @lemon.price %></h6>
+              <p class="card-text"><%= @lemon.description %></p>
+              <i class="fas fa-cart-plus"></i>  
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>

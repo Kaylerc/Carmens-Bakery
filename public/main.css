@@ -1,0 +1,143 @@
+:root {
+    --main: rgb(140, 39, 72);
+    --hover: #6be0d6;
+    --second: rgb(201, 109, 139);
+
+}
+
+
+html {
+  background-color: var(--main);
+  font-family: 'Handlee', cursive;
+}
+.nav{
+    background-color: rgba(0,0,0,0);
+    height: 40px;
+    width:auto;
+    justify-content: right;
+}
+
+.nav ul li{
+    list-style:none;
+    text-decoration:none;
+    display: inline-block;
+    padding: 10px;
+    padding-right:20px;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: var(--main);
+    font-family: 'Handlee', cursive;
+}
+
+.nav ul li a:hover {
+    color: var(--hover);
+}
+
+.nav ul li a:active{
+    color: var(--hover);
+}
+
+.main_grid {
+  display: grid;
+  /* padding: 25px; */
+  grid-template: auto/auto auto auto;
+  /* background-color: rgb(201, 109, 139); */
+  /* grid-gap: 40px; */
+
+}
+
+.cells {
+  overflow: scroll;
+  padding: 1em;
+  border: black 1px solid;
+  height: 75vh;
+  text-align: center;
+
+}
+
+.container {
+  margin-left: 97px !important;
+}
+
+#rs {
+  font-size: 22.9px;
+}
+
+.bname {
+  text-align: center;
+  background-color: var(--main);
+  color:#FFFF;
+  font-size: 40px;
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  padding: 20px;
+
+}
+
+
+.muff {
+  height = 5px;
+  width = 5px;
+}
+
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.success {
+  border-color: var(--main);
+  color: var(--main);
+}
+
+
+i {
+  color: var(--second);
+}
+
+i:hover {
+  color: var(--hover);
+}
+
+
+footer {
+  text-align: center;
+  color: var(--main);
+  font-family: 'Handlee', cursive;
+}
+
+#history {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.space {
+  margin: 20px;
+}
+
+#copy {
+  font-size: 9px;
+}
+
+#social {
+  height: 25px;
+  size: 9px;
+}
+
+
+.ename {
+  font-weight: bold;
+  font-family: 'Handlee', cursive;
+  font-size: 23px;
+  color: var(--main);
+  text-shadow: 2px;
+}
